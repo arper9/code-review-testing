@@ -1,3 +1,5 @@
+ 
+
 # initialize the amount variable
 amount = 10000
   
@@ -6,5 +8,5 @@ amount = 10000
 
 if(amount>2999):
     print("You are eligible to purchase Dsa Self Paced")
-
-test-78
+else:
+    print("You are not eligible to purchase Dsa Self Paced")
