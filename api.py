@@ -1,11 +1,10 @@
-
-
+ 
 ```
 from flask import Flask, jsonify
   
 app = Flask(__name__)
   
-# Returns 'Hello World' in a JSON response
+# Return a JSON response containing a 'Hello World' message
 @app.route('/hello', methods=['GET'])
 def helloworld():
     # Create a dictionary containing the response data
