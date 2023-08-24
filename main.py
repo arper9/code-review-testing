@@ -1,10 +1,11 @@
-# initialize the amount variable
-amount = 10000
-  
-# check that You are eligible to
-#  purchase Dsa Self Paced or not
 
-if(amount>2999):
+
+# Initialize the price_threshold variable
+price_threshold = 2999
+
+# Check if the user is eligible to purchase Dsa Self Paced
+if(price_threshold < amount):
     print("You are eligible to purchase Dsa Self Paced")
-
-test-78
+    
+# Test value
+test_value = 78
